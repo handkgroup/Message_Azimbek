@@ -1,0 +1,284 @@
+/* Styles for .top_numbers */
+.top_numbers {
+    max-width: 1440px;
+    width: 100%;
+    padding: 0 100px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.top_numbers .number_card {
+    width: 400px;
+    height: 260px;
+    border: 2px solid var(--red, #CF0505);
+    padding: 30px 40px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.top_numbers .number_card:nth-child(1) {
+    background-image: url("21.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.top_numbers .number_card:nth-child(3) {
+    background-image: url("13.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.top_numbers .number_card:nth-child(2) .men_number {
+    width: 50%;
+    height: 100%;
+    background-image: url("14.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.top_numbers .number_card:nth-child(2) .women_number {
+    width: 50%;
+    height: 100%;
+    background-image: url("15.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.top_numbers .number_card:nth-child(2) .men_number p,
+.top_numbers .number_card:nth-child(2) .women_number p {
+    color: #000;
+    font-family: "Noto Sans JP";
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+}
+.top_numbers .number_card:nth-child(2) .men_number h3,
+.top_numbers .number_card:nth-child(2) .women_number h3 {
+    color: var(--black, #000);
+    font-family: "Inter", sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+}
+.top_numbers .number_card:nth-child(2) .men_number h3 span,
+.top_numbers .number_card:nth-child(2) .women_number h3 span {
+    color: #000;
+    font-family: "Inter", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 208%;
+}
+.top_numbers .number_card p {
+    color: var(--red, #CF0505);
+    font-family: "Noto Sans";
+    font-size: 24px;
+    font-weight: 700;
+}
+.top_numbers .number_card h2 {
+    color: var(--black, #000);
+    font-family: "Inter", sans-serif;
+    font-size: 90px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 24px;
+}
+.top_numbers .number_card h2 span {
+    font-size: 40px;
+    line-height: 208%;
+}
+
+/* Styles for .top_numbers1 */
+.top_numbers1 {
+    max-width: 1440px;
+    width: 100%;
+    padding: 0 100px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.top_numbers1 .number_card1 {
+    width: 400px;
+    height: 260px;
+    border: 2px solid var(--red, #CF0505);
+    padding: 30px 40px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.top_numbers1 .number_card1:nth-child(1) {
+    background-image: url("12.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.top_numbers1 .number_card1:nth-child(3) {
+    background-image: url("13.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.top_numbers1 .number_card1:nth-child(2) .men_number1 {
+    width: 50%;
+    height: 100%;
+    background-image: url("14.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.top_numbers1 .number_card1:nth-child(2) .women_number1 {
+    width: 50%;
+    height: 100%;
+    background-image: url("15.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.top_numbers1 .number_card1:nth-child(2) .men_number1 p,
+.top_numbers1 .number_card1:nth-child(2) .women_number1 p {
+    color: #000;
+    font-family: "Noto Sans JP";
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+}
+.top_numbers1 .number_card1:nth-child(2) .men_number1 h3,
+.top_numbers1 .number_card1:nth-child(2) .women_number1 h3 {
+    color: var(--black, #000);
+    font-family: "Inter", sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+}
+.top_numbers1 .number_card1:nth-child(2) .men_number1 h3 span,
+.top_numbers1 .number_card1:nth-child(2) .women_number1 h3 span {
+    color: #000;
+    font-family: "Inter", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 208%;
+}
+.top_numbers1 .number_card1 p {
+    color: var(--red, #CF0505);
+    font-family: "Noto Sans";
+    font-size: 24px;
+    font-weight: 700;
+}
+.top_numbers1 .number_card1 h2 {
+    color: var(--black, #000);
+    font-family: "Inter", sans-serif;
+    font-size: 90px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 24px;
+}
+.top_numbers1 .number_card1 h2 span {
+    font-size: 40px;
+    line-height: 208%;
+}
+
+/* Styles for .top_numbers2 */
+.top_numbers2 {
+    max-width: 1440px;
+    width: 100%;
+    padding: 0 100px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.top_numbers2 .number_card2 {
+    width: 400px;
+    height: 260px;
+    border: 2px solid var(--red, #CF0505);
+    padding: 30px 40px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.top_numbers2 .number_card2:nth-child(1) {
+    background-image: url("12.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.top_numbers2 .number_card2:nth-child(3) {
+    background-image: url("13.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.top_numbers2 .number_card2:nth-child(2) .men_number2 {
+    width: 50%;
+    height: 100%;
+    background-image: url("14.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.top_numbers2 .number_card2:nth-child(2) .women_number2 {
+    width: 50%;
+    height: 100%;
+    background-image: url("15.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.top_numbers2 .number_card2:nth-child(2) .men_number2 p,
+.top_numbers2 .number_card2:nth-child(2) .women_number2 p {
+    color: #000;
+    font-family: "Noto Sans JP";
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+}
+.top_numbers2 .number_card2:nth-child(2) .men_number2 h3,
+.top_numbers2 .number_card2:nth-child(2) .women_number2 h3 {
+    color: var(--black, #000);
+    font-family: "Inter", sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+}
+.top_numbers2 .number_card2:nth-child(2) .men_number2 h3 span,
+.top_numbers2 .number_card2:nth-child(2) .women_number2 h3 span {
+    color: #000;
+    font-family: "Inter", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 208%;
+}
+.top_numbers2 .number_card2 p {
+    color: var(--red, #CF0505);
+    font-family: "Noto Sans";
+    font-size: 24px;
+    font-weight: 700;
+}
+.top_numbers2 .number_card2 h2 {
+    color: var(--black, #000);
+    font-family: "Inter", sans-serif;
+    font-size: 90px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 24px;
+}
+.top_numbers2 .number_card2 h2 span {
+    font-size: 40px;
+    line-height: 208%;
+}
